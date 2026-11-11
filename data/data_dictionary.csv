@@ -1,0 +1,55 @@
+Column,Group,Description,Unit,Type
+Row_ID,Identifier,Row identifier in the database,-,id
+Paper_ID,Identifier,Study identifier (see sources.csv); used as the group in grouped cross-validation,-,id
+Value_Type,Identifier,"Lower, Mean, Upper or Single value of a reported test condition",-,text
+Target_Is_Derived,Identifier,"1 if the target was calculated from load, overlap and width (single-lap joints only)",-,flag
+No_Plies,Adherend,Number of plies of the laminate adherend,-,numeric
+Adherend1_Thickness_mm,Adherend,Thickness of adherend 1,mm,numeric
+Adherend2_Thickness_mm,Adherend,Thickness of adherend 2,mm,numeric
+Adherend1_Modulus_GPa,Adherend,Elastic modulus of adherend 1 as reported,GPa,numeric
+Adherend2_Modulus_GPa,Adherend,Elastic modulus of adherend 2 as reported,GPa,numeric
+Adherend1_Strength_MPa,Adherend,Strength of adherend 1 material as reported,MPa,numeric
+Adherend2_Strength_MPa,Adherend,Strength of adherend 2 material as reported,MPa,numeric
+Adherend1_Class,Adherend,Material class of adherend 1,-,label-encoded
+Adherend2_Class,Adherend,Material class of adherend 2,-,label-encoded
+Fiber_Orientation_Class,Adherend,Lay-up or fibre orientation class,-,label-encoded
+Adhesive_Class,Adhesive and filler,Adhesive type,-,label-encoded
+Adhesive_Form,Adhesive and filler,"Adhesive form (paste, film)",-,label-encoded
+Filler1_Type,Adhesive and filler,Type of filler 1,-,label-encoded
+Filler2_Type,Adhesive and filler,Type of filler 2,-,label-encoded
+Filler1_wtpct,Adhesive and filler,Content of filler 1 (0 if none),wt%,numeric
+Filler2_wtpct,Adhesive and filler,Content of filler 2 (0 if none),wt%,numeric
+Mix_Ratio_A_per_B,Adhesive and filler,Resin to hardener mix ratio (A per B),-,numeric
+Adhesive_Modulus_GPa,Adhesive and filler,Elastic modulus of the cured adhesive,GPa,numeric
+Adhesive_Strength_MPa,Adhesive and filler,Strength of the bulk adhesive as reported,MPa,numeric
+Adhesive_Elongation_pct,Adhesive and filler,Elongation at break of the adhesive,%,numeric
+Overlap_Length_mm,Geometry,Length of the bonded region,mm,numeric
+Joint_Width_mm,Geometry,Width of the joint,mm,numeric
+Adhesive_Thickness_mm,Geometry,Thickness of the adhesive layer,mm,numeric
+Joint_Type_Class,Geometry,"Joint geometry (single-lap, double-lap, scarf, ...)",-,label-encoded
+Fillet,Geometry,"Adhesive fillet at the overlap end (no, yes, missing)",-,label-encoded
+Primer_Used,Surface,"Primer applied (no, yes, missing)",-,label-encoded
+Bonding_Route,Surface,"Co-cure, co-bond or secondary bonding (composite-composite tasks only)",-,label-encoded
+Cure_Temp_C,Cure and process,Cure temperature,degC,numeric
+Cure_Duration_h,Cure and process,Cure time,h,numeric
+PostCure_Temp_C,Cure and process,Post-cure temperature (0 if none),degC,numeric
+PostCure_Duration_h,Cure and process,Post-cure time (0 if none),h,numeric
+Test_Temp_C,Test and environment,Test temperature,degC,numeric
+Loading_Rate_mm_min,Test and environment,Crosshead speed,mm/min,numeric
+Humidity_pctRH,Test and environment,Relative humidity of conditioning,%RH,numeric
+Aging_Days,Test and environment,Ageing time (0 if none),days,numeric
+MaxLoad_kN,Target,Maximum load of the joint,kN,numeric
+LSS_MPa,Target,Lap-shear strength (maximum load / bonded area),MPa,numeric
+Failure_Mode,Target,"Failure mode class: 0 adhesive, 1 cohesive, 2 mixed, 3 substrate",-,class
+Surf_Solvent_detergent_clean,Surface,Surface treatment indicator: Solvent detergent clean,-,binary
+Surf_Abrasion_sanding_grinding_brushing,Surface,Surface treatment indicator: Abrasion sanding grinding brushing,-,binary
+Surf_Grit_sand_blasting,Surface,Surface treatment indicator: Grit sand blasting,-,binary
+Surf_Peel_ply,Surface,Surface treatment indicator: Peel ply,-,binary
+Surf_Plasma_corona,Surface,Surface treatment indicator: Plasma corona,-,binary
+Surf_UV_ozone,Surface,Surface treatment indicator: UV ozone,-,binary
+Surf_Laser,Surface,Surface treatment indicator: Laser,-,binary
+Surf_Chemical_electrochemical,Surface,Surface treatment indicator: Chemical electrochemical,-,binary
+Surf_Other_modifier,Surface,Surface treatment indicator: Other modifier,-,binary
+Surf_None_as_received,Surface,Surface treatment indicator: None as received,-,binary
+Surf_Ultrasonic_vibration_assisted,Surface,Surface treatment indicator: Ultrasonic vibration assisted,-,binary
+Surf_Unknown,Surface,Surface treatment indicator: Unknown,-,binary

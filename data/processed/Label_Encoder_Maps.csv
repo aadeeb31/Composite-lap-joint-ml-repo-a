@@ -1,0 +1,76 @@
+Column,Category,Code
+Adherend1_Class,Aluminium,0
+Adherend1_Class,BFRP,1
+Adherend1_Class,CFRP,2
+Adherend1_Class,GFRP,3
+Adherend1_Class,Hybrid glass/natural FRP,4
+Adherend1_Class,Natural-fibre FRP,5
+Adherend1_Class,Tin,6
+Adherend1_Class,Missing,7
+Adherend2_Class,Aluminium,0
+Adherend2_Class,BFRP,1
+Adherend2_Class,CFRP,2
+Adherend2_Class,GFRP,3
+Adherend2_Class,Hybrid glass/natural FRP,4
+Adherend2_Class,Natural-fibre FRP,5
+Adherend2_Class,Steel,6
+Adherend2_Class,Timber,7
+Adherend2_Class,Tin,8
+Adherend2_Class,Titanium,9
+Adherend2_Class,Missing,10
+Fiber_Orientation_Class,Hybrid (woven + UD),0
+Fiber_Orientation_Class,NCF (non-crimp fabric),1
+Fiber_Orientation_Class,Pultruded,2
+Fiber_Orientation_Class,Quasi-isotropic / multi-angle,3
+Fiber_Orientation_Class,Random short fibre,4
+Fiber_Orientation_Class,UD (0 deg),5
+Fiber_Orientation_Class,Woven,6
+Fiber_Orientation_Class,Missing,7
+Adhesive_Class,Acrylic/Methacrylate,0
+Adhesive_Class,Epoxy,1
+Adhesive_Class,Polyurethane,2
+Adhesive_Class,Thermoplastic film (PC/PEI/PES/PSU),3
+Adhesive_Class,Unspecified (paste/film),4
+Adhesive_Class,Missing,5
+Adhesive_Form,,0
+Adhesive_Form,Film/tape,1
+Adhesive_Form,Paste,2
+Adhesive_Form,Missing,3
+Filler1_Type,Al powder,0
+Filler1_Type,B4C,1
+Filler1_Type,CNT (amount not stated),2
+Filler1_Type,CNT-COOH,3
+Filler1_Type,Fullerene C60,4
+Filler1_Type,Glass powder,5
+Filler1_Type,Graphene-COOH,6
+Filler1_Type,Long glass fibre bundles,7
+Filler1_Type,MWCNT,8
+Filler1_Type,MnO2 nanorods,9
+Filler1_Type,Nano-SiO2,10
+Filler1_Type,Short glass fibre,11
+Filler1_Type,h-BN,12
+Filler1_Type,Missing,13
+Filler2_Type,Core-shell rubber (BM),0
+Filler2_Type,Missing,1
+Joint_Type_Class,Butt,0
+Joint_Type_Class,DLJ,1
+Joint_Type_Class,Double strap,2
+Joint_Type_Class,Finger,3
+Joint_Type_Class,SLJ,4
+Joint_Type_Class,Single strap,5
+Joint_Type_Class,Stepped lap,6
+Joint_Type_Class,Missing,7
+Fillet,No,0
+Fillet,Yes,1
+Fillet,Missing,2
+Primer_Used,No,0
+Primer_Used,Yes,1
+Primer_Used,Missing,2
+Bonding_Route,Co-bonded,0
+Bonding_Route,Co-cured,1
+Bonding_Route,Secondary bonded,2
+Bonding_Route,Missing,3
+Failure_Mode_Class,Adhesive,0
+Failure_Mode_Class,Cohesive,1
+Failure_Mode_Class,Mixed,2
+Failure_Mode_Class,Substrate,3
