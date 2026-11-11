@@ -1,0 +1,18 @@
+File,Target,Family,Model,Rows,Papers,Best_params,GroupCV_tuned,GroupOOF_score,Random5fold_score,Train_r2,Train_mae,Train_mse,Test_r2,Test_mae,Test_mse,Test5seeds_mean,Test5seeds_sd,Fit_s,Pred_ms_per_row
+Composite_Composite__LSS,LSS_MPa,Linear,OLS,956,42,"{""fit_intercept"": ""True""}",-11.9344,-4.9862,0.5869,0.6666,3.7304,25.7914,0.6078,4.0307,29.2144,0.5795,0.0718,0.045,0.0216
+Composite_Composite__LSS,LSS_MPa,Linear,Ridge,956,42,"{""alpha"": ""100""}",-0.8426,-0.2039,0.3462,0.3855,5.6589,47.5325,0.3891,5.545,45.5083,0.401,0.023,0.006,0.0062
+Composite_Composite__LSS,LSS_MPa,Linear,Lasso,956,42,"{""alpha"": ""0.1""}",-1.6047,-0.6549,0.4711,0.4922,4.7772,39.281,0.5108,4.6019,36.4469,0.4994,0.0273,0.005,0.0058
+Composite_Composite__LSS,LSS_MPa,Linear,ElasticNet,956,42,"{""alpha"": ""0.1"", ""l1_ratio"": ""0.2""}",-0.9678,-0.2686,0.4039,0.4231,5.3802,44.6268,0.4275,5.2473,42.6451,0.438,0.0247,0.01,0.0057
+Composite_Composite__LSS,LSS_MPa,Kernel,SVR,956,42,"{""C"": ""1"", ""gamma"": ""0.2""}",-0.5203,-0.0365,0.6715,0.7213,2.8455,21.5578,0.6749,3.3024,24.221,0.6824,0.0453,0.029,0.0466
+Composite_Composite__LSS,LSS_MPa,Neural net,MLP,956,42,"{""alpha"": ""0.01"", ""hidden_layer_sizes"": ""(128, 64)""}",-2.3551,-1.0349,0.7701,0.7748,2.8215,17.4186,0.7048,3.3201,21.9932,0.778,0.0528,0.217,0.0109
+Composite_Composite__LSS,LSS_MPa,Tree,DT,956,42,"{""max_depth"": ""None"", ""min_samples_leaf"": ""1""}",-0.5151,-0.1513,0.8316,0.9361,1.1122,4.9403,0.8295,2.1173,12.7021,0.8274,0.0198,0.009,0.008
+Composite_Composite__LSS,LSS_MPa,Forest,RF,956,42,"{""max_depth"": ""None"", ""min_samples_leaf"": ""1"", ""n_estimators"": ""200""}",-0.424,-0.0154,0.8566,0.9327,1.2724,5.2036,0.8378,2.0874,12.0812,0.8421,0.0126,0.534,0.075
+Composite_Composite__LSS,LSS_MPa,Forest,ET,956,42,"{""max_depth"": ""None"", ""min_samples_leaf"": ""2"", ""n_estimators"": ""200""}",-0.3483,0.1275,0.8491,0.9316,1.2744,5.2903,0.8367,2.0828,12.1669,0.8408,0.0131,0.352,0.0683
+Composite_Composite__LSS,LSS_MPa,Boosting,GB,956,42,"{""max_depth"": ""5"", ""n_estimators"": ""200""}",-0.1279,0.1905,0.8606,0.9339,1.2601,5.1163,0.8275,2.1215,12.8536,0.8473,0.0192,0.409,0.0143
+Composite_Composite__LSS,LSS_MPa,Boosting,XGB,956,42,"{""learning_rate"": ""0.1"", ""max_depth"": ""6"", ""n_estimators"": ""600""}",-0.4119,-0.0015,0.8495,0.9352,1.2043,5.0112,0.822,2.112,13.2604,0.834,0.0196,0.237,0.0294
+Composite_Composite__LSS,LSS_MPa,Boosting,LGBM,956,42,"{""learning_rate"": ""0.05"", ""n_estimators"": ""300"", ""num_leaves"": ""31""}",-1.1613,-0.4936,0.8664,0.9249,1.4504,5.8108,0.8343,2.1259,12.3434,0.855,0.0172,0.094,0.0333
+Composite_Composite__LSS,LSS_MPa,Boosting,AB,956,42,"{""learning_rate"": ""0.5"", ""n_estimators"": ""100""}",-0.6585,-0.1219,0.6687,0.7006,3.8312,23.1613,0.6238,4.0071,28.024,0.6858,0.0174,0.062,0.0188
+Composite_Composite__LSS,LSS_MPa,Boosting,CatBoost,956,42,"{""depth"": ""4"", ""iterations"": ""300"", ""learning_rate"": ""0.05""}",-0.6537,-0.1403,0.836,0.8826,2.1004,9.0791,0.8191,2.505,13.4755,0.8253,0.0138,0.195,0.0095
+Composite_Composite__LSS,LSS_MPa,Nearest neighbour,KNN,956,42,"{""n_neighbors"": ""7"", ""weights"": ""uniform""}",-0.6418,-0.0533,0.7226,0.8206,2.5046,13.8741,0.7667,2.8919,17.381,0.7266,0.0526,0.005,0.2262
+Composite_Composite__LSS,LSS_MPa,Bayesian,BayesRidge,956,42,"{""alpha_1"": ""1e-06"", ""lambda_1"": ""0.0001""}",-8.5846,-3.6156,0.5951,0.6616,3.7749,26.1776,0.604,4.0232,29.4982,0.5946,0.0637,0.008,0.0067
+Composite_Composite__LSS,LSS_MPa,Bayesian,GPR,956,42,"{""kernel"": ""1**2 * Matern(length_scale=1, nu=1.5) + WhiteKernel(noise_level=0.1)""}",-0.9139,-0.2299,0.831,0.9223,1.5395,6.0091,0.8122,2.3275,13.9902,0.8481,0.0105,0.967,0.0276

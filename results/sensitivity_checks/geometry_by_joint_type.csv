@@ -1,0 +1,25 @@
+Task,Joint_Type,records,studies,calculated
+CFRP_CFRP__MaxLoad,DLJ,87,3,0
+CFRP_CFRP__MaxLoad,Finger,12,1,0
+CFRP_CFRP__MaxLoad,SLJ,676,28,388
+Composite_Composite__MaxLoad,DLJ,88,4,0
+Composite_Composite__MaxLoad,Double strap,1,1,0
+Composite_Composite__MaxLoad,Finger,12,1,0
+Composite_Composite__MaxLoad,SLJ,951,42,400
+Composite_Composite__MaxLoad,Single strap,1,1,0
+Composite_Composite__MaxLoad,Stepped lap,1,1,0
+CFRP_CFRP__LSS,SLJ,676,28,257
+Composite_Composite__LSS,DLJ,1,1,0
+Composite_Composite__LSS,Double strap,1,1,0
+Composite_Composite__LSS,SLJ,952,42,329
+Composite_Composite__LSS,Single strap,1,1,0
+Composite_Composite__LSS,Stepped lap,1,1,0
+CFRP_CFRP__FailureMode,DLJ,87,3,0
+CFRP_CFRP__FailureMode,Finger,12,1,0
+CFRP_CFRP__FailureMode,SLJ,488,26,0
+Composite_Composite__FailureMode,DLJ,88,4,0
+Composite_Composite__FailureMode,Double strap,1,1,0
+Composite_Composite__FailureMode,Finger,12,1,0
+Composite_Composite__FailureMode,SLJ,709,39,0
+Composite_Composite__FailureMode,Single strap,1,1,0
+Composite_Composite__FailureMode,Stepped lap,1,1,0

@@ -1,0 +1,13 @@
+Task,Interval,Coverage_random,Width_random,Coverage_unseen,Width_unseen
+CFRP_CFRP__MaxLoad,"Conformal, constant width",98.1,45.75,79.2,45.39
+CFRP_CFRP__MaxLoad,"Conformal, scaled",98.7,43.72,86.9,57.5
+CFRP_CFRP__MaxLoad,Gaussian process,91.6,12.17,89.4,64.75
+Composite_Composite__MaxLoad,"Conformal, constant width",100.0,28.82,88.1,30.26
+Composite_Composite__MaxLoad,"Conformal, scaled",99.5,28.61,83.4,37.01
+Composite_Composite__MaxLoad,Gaussian process,94.3,13.99,96.1,54.69
+CFRP_CFRP__LSS,"Conformal, constant width",100.0,25.35,89.4,27.44
+CFRP_CFRP__LSS,"Conformal, scaled",99.3,28.23,89.4,29.16
+CFRP_CFRP__LSS,Gaussian process,95.6,12.06,80.6,28.58
+Composite_Composite__LSS,"Conformal, constant width",99.0,26.52,84.6,27.79
+Composite_Composite__LSS,"Conformal, scaled",100.0,29.24,85.5,30.42
+Composite_Composite__LSS,Gaussian process,89.6,11.58,80.4,28.18

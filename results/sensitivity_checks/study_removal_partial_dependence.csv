@@ -1,0 +1,9 @@
+Task,Variant,Feature,0.05,0.1,0.2,0.3,0.5,1.0,2.0,12.5,25,50,100
+Composite_Composite__LSS,with study 64,Adhesive_Thickness_mm,20.0,14.39,14.05,13.82,13.88,12.35,10.94,,,,
+Composite_Composite__LSS,with study 64,Overlap_Length_mm,,,,,,,,11.69,15.13,16.56,16.55
+Composite_Composite__LSS,without study 64,Adhesive_Thickness_mm,15.16,14.6,14.15,13.93,13.88,12.27,10.94,,,,
+Composite_Composite__LSS,without study 64,Overlap_Length_mm,,,,,,,,11.84,15.15,17.26,17.25
+CFRP_CFRP__LSS,with study 64,Adhesive_Thickness_mm,18.55,18.47,15.0,13.11,13.9,11.19,10.34,,,,
+CFRP_CFRP__LSS,with study 64,Overlap_Length_mm,,,,,,,,9.91,16.68,17.5,17.5
+CFRP_CFRP__LSS,without study 64,Adhesive_Thickness_mm,19.27,19.44,15.35,12.42,13.08,10.72,9.92,,,,
+CFRP_CFRP__LSS,without study 64,Overlap_Length_mm,,,,,,,,10.5,16.39,17.81,17.81
